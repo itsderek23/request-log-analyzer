@@ -1,4 +1,5 @@
 require 'date'
+require 'request_log_analyzer/file_ext'
 
 # Satisfy ruby 1.9 sensitivity about encoding.
 Encoding.default_external = 'binary' if defined? Encoding and Encoding.respond_to? 'default_external='
