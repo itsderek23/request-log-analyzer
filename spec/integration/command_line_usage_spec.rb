@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/../spec_helper.rb'
-
+require File.expand_path('../../spec_helper.rb', __FILE__)
 describe RequestLogAnalyzer, 'running from command line' do
 
   before(:each) do
